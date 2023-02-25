@@ -4,7 +4,7 @@ import java.net.Socket;
 public class Client {
     public static void main(String[] args) {
         try (
-                Socket socket = new Socket("85.249.23.224", 8000);
+                Socket socket = new Socket("46.173.38.189 ", 8000);
                 BufferedWriter writer =
                         new BufferedWriter(
                                 new OutputStreamWriter(
